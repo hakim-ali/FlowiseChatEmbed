@@ -36,8 +36,5 @@ export const Badge = (props: Props) => {
     if (observer) observer.disconnect();
   });
 
-  return (
-    <span>
-    </span>
-  );
+  return <span />;
 };
